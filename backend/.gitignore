@@ -1,0 +1,7 @@
+backend/dataset/
+backend/models/
+*.csv
+*.pkl
+*.log
+venv/
+__pycache__/
