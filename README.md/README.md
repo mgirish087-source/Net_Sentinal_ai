@@ -1,5 +1,5 @@
 # Net_Sentinal_ai
-
+# [DAY 1]
 ### AI-Based Network Intrusion Detection System
 
 ## 📌 Project Overview
@@ -179,7 +179,7 @@ http://localhost:5000
 
 ## 👨‍💻 Author
 
-Girish
+Girish M & Stonshia 
 
 ---
 
