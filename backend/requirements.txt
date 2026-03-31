@@ -1,6 +1,6 @@
-flask
 pandas
 numpy
 scikit-learn
 joblib
+flask
 scapy
