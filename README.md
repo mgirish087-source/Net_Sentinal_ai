@@ -77,11 +77,14 @@ Dashboard & Alerts
 The following Machine Learning algorithms were evaluated:
 
 * Random Forest Classifier
+* Decision Tree Classifier
 
 ### Performance Metrics
 
 * Accuracy
 * Precision
+* Recall
+* F1 Score
 * Confusion Matrix
 
 ---
@@ -146,7 +149,7 @@ The model is trained using the **CICIDS2017 (Canadian Institute for Cybersecurit
 * HTML5
 * CSS3
 * JavaScript
-* Tailwind CSS
+* Bootstrap
 
 ### Development Tools
 
@@ -185,14 +188,6 @@ Net_Sentinal_AI
 ```
 
 ---
-## 📋 Prerequisites
-
-Before running this project, ensure you have:
-
-- Python 3.10 or later
-- Git
-- pip package manager
-- Visual Studio Code (Recommended)
 
 ## ⚙️ Installation Guide
 
@@ -276,28 +271,27 @@ http://localhost:5000
 * Cloud Deployment (AWS/Azure)
 
 ---
-
-### Dashboard
+## Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
-### Dashboard Overview
+## Dashboard 2
 
-![Dashboard Overview](screenshots/dashboard2.png)
+![Dashboard 2](screenshots/dashboard2.png)
 
-### Live Packet Monitoring
+## Live Packet
 
 ![Live Packet](screenshots/livepacket.png)
 
-### Live Packet Analysis
+## Live Packet 2
 
-![Live Packet Analysis](screenshots/livepacket2.png)
+![Live Packet 2](screenshots/livepacket2.png)
 
-### System Health Monitoring
+## System Health
 
 ![System Health](screenshots/systemhealth.png)
 
-### Threat Alerts
+## Threat Alerts
 
 ![Threat Alerts](screenshots/threatAlerts.png)
 
@@ -334,6 +328,3 @@ Feel free to use and modify the code for academic and non-commercial projects.
 ---
 
 ⭐ If you found this project useful, consider giving it a star on GitHub.
-
-
-
