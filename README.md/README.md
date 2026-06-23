@@ -287,7 +287,7 @@ http://localhost:5000
 
 ### Live Packet Monitoring
 
-![Live Packet](sscreenshots/livepacket.png)
+![Live Packet](screenshots/livepacket.png)
 
 ### Live Packet Analysis
 
