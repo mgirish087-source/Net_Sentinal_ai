@@ -1,0 +1,818 @@
+[2026-05-10 01:45:52,306] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 01:45:53,242] ERROR in predict: Model not found at 'models/saved/random_forest.pkl'. Run models/training/train.py first.
+[2026-05-10 01:45:53,243] WARNING in routes: ML model not loaded. Train it first and place at models/saved/random_forest.pkl
+[2026-05-10 01:45:53,245] INFO in __init__: Routes registered successfully.
+[2026-05-10 01:45:53,246] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 01:58:15,139] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 01:58:17,421] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 01:58:17,424] INFO in __init__: Routes registered successfully.
+[2026-05-10 01:58:17,427] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:24:50,420] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:24:52,629] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:24:52,632] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:24:52,632] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:25:19,093] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:25:19,118] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:25:21,091] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:25:21,095] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:25:21,095] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:31:21,288] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:31:21,316] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:32:34,832] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:32:34,855] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:32:36,843] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:32:36,847] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:32:36,847] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:39:30,246] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:39:30,279] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:39:32,168] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:39:32,171] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:39:32,172] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:41:19,028] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:41:19,077] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:41:20,939] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:41:20,942] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:41:20,943] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:41:35,327] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:41:35,434] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:27,778] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:27,885] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:32,770] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:38,294] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:43,284] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:48,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:53,286] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:58,286] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:03,287] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:08,294] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:13,287] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:18,281] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:23,295] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:28,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:51,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:44:51,292] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:45:51,295] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:46:51,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:43,589] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:43,695] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:49,280] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:54,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:59,281] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:04,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:09,277] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:14,289] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:19,285] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:51,282] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:49:08,129] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 02:49:08,174] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 02:49:10,112] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 02:49:10,115] INFO in __init__: Routes registered successfully.
+[2026-05-10 02:49:10,116] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 02:49:51,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:50:51,284] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:08,813] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:08,920] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:51,288] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:53,932] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:54,086] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:54,192] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 12:28:50,547] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 12:28:50,660] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 12:29:05,921] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 12:29:05,927] INFO in __init__: Routes registered successfully.
+[2026-05-10 12:29:05,931] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 13:37:28,726] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 13:37:28,806] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 13:37:43,315] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 13:37:43,323] INFO in __init__: Routes registered successfully.
+[2026-05-10 13:37:43,328] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 13:42:07,419] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 13:42:07,456] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 13:42:11,755] INFO in predict: Model loaded from 'models/saved/random_forest.pkl'.
+[2026-05-10 13:42:11,762] INFO in __init__: Routes registered successfully.
+[2026-05-10 13:42:11,765] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 14:22:22,558] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 14:22:22,688] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 14:22:24,444] INFO in predict: Loading ML artifacts...
+[2026-05-10 14:22:27,632] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 14:22:27,633] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 14:22:27,634] INFO in predict: Feature count: 78
+[2026-05-10 14:22:27,636] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 14:22:27,643] INFO in __init__: Routes registered successfully.
+[2026-05-10 14:22:27,648] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 14:28:40,783] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 14:28:40,841] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 14:28:42,216] INFO in predict: Loading ML artifacts...
+[2026-05-10 14:28:45,090] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 14:28:45,092] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 14:28:45,094] INFO in predict: Feature count: 78
+[2026-05-10 14:28:45,096] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 14:28:45,104] INFO in __init__: Routes registered successfully.
+[2026-05-10 14:28:45,107] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 14:32:50,619] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 14:32:50,679] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 14:32:52,161] INFO in predict: Loading ML artifacts...
+[2026-05-10 14:32:55,790] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 14:32:55,790] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 14:32:55,791] INFO in predict: Feature count: 78
+[2026-05-10 14:32:55,791] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 14:32:55,799] INFO in __init__: Routes registered successfully.
+[2026-05-10 14:32:55,801] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 15:07:24,487] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 15:07:24,514] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 15:07:26,022] INFO in predict: Loading ML artifacts...
+[2026-05-10 15:07:29,614] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 15:07:29,615] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 15:07:29,616] INFO in predict: Feature count: 78
+[2026-05-10 15:07:29,617] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 15:07:29,624] INFO in __init__: Routes registered successfully.
+[2026-05-10 15:07:29,626] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 15:10:40,429] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 15:10:40,461] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 15:10:41,902] INFO in predict: Loading ML artifacts...
+[2026-05-10 15:10:44,866] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 15:10:44,867] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 15:10:44,870] INFO in predict: Feature count: 78
+[2026-05-10 15:10:44,873] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 15:10:44,883] INFO in __init__: Routes registered successfully.
+[2026-05-10 15:10:44,890] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 20:51:51,642] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 20:51:51,749] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 20:51:55,300] INFO in predict: Loading ML artifacts...
+[2026-05-10 20:52:13,716] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 20:52:13,717] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 20:52:13,717] INFO in predict: Feature count: 78
+[2026-05-10 20:52:13,718] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 20:52:13,726] INFO in __init__: Routes registered successfully.
+[2026-05-10 20:52:13,727] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 20:56:43,896] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 20:56:44,041] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 20:56:48,212] INFO in predict: Loading ML artifacts...
+[2026-05-10 20:57:04,819] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 20:57:04,822] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 20:57:04,822] INFO in predict: Feature count: 78
+[2026-05-10 20:57:04,823] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 20:57:04,832] INFO in __init__: Routes registered successfully.
+[2026-05-10 20:57:04,834] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-10 21:06:01,666] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-10 21:06:01,784] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-10 21:06:04,326] INFO in predict: Loading ML artifacts...
+[2026-05-10 21:06:18,679] INFO in predict: ML artifacts loaded successfully.
+[2026-05-10 21:06:18,680] INFO in predict: Model type: RandomForestClassifier
+[2026-05-10 21:06:18,685] INFO in predict: Feature count: 78
+[2026-05-10 21:06:18,687] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-10 21:06:18,697] INFO in __init__: Routes registered successfully.
+[2026-05-10 21:06:18,700] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:04:17,052] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:04:17,091] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:04:18,145] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:04:24,313] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:04:24,313] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:04:24,314] INFO in predict: Feature count: 78
+[2026-05-11 11:04:24,314] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:04:24,317] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:04:24,318] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:22:47,565] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:22:47,601] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:22:48,507] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:22:54,649] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:22:54,650] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:22:54,651] INFO in predict: Feature count: 78
+[2026-05-11 11:22:54,651] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:22:54,654] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:22:54,655] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:27:25,719] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:27:25,732] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:27:26,239] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:27:27,752] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:27:27,753] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:27:27,753] INFO in predict: Feature count: 78
+[2026-05-11 11:27:27,754] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:27:27,757] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:27:27,758] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:29:11,911] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:29:11,921] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:29:12,416] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:29:13,836] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:29:13,836] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:29:13,838] INFO in predict: Feature count: 78
+[2026-05-11 11:29:13,838] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:29:13,841] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:29:13,842] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:31:51,055] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:31:51,065] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:31:51,563] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:31:53,076] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:31:53,077] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:31:53,077] INFO in predict: Feature count: 78
+[2026-05-11 11:31:53,078] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:31:53,081] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:31:53,082] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 11:56:46,333] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 11:56:46,441] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 11:56:49,595] INFO in predict: Loading ML artifacts...
+[2026-05-11 11:57:06,115] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 11:57:06,116] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 11:57:06,117] INFO in predict: Feature count: 78
+[2026-05-11 11:57:06,118] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 11:57:06,127] INFO in __init__: Routes registered successfully.
+[2026-05-11 11:57:06,130] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 12:05:50,291] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 12:05:50,352] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 12:05:51,827] INFO in predict: Loading ML artifacts...
+[2026-05-11 12:05:55,152] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 12:05:55,153] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 12:05:55,154] INFO in predict: Feature count: 78
+[2026-05-11 12:05:55,155] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 12:05:55,165] INFO in __init__: Routes registered successfully.
+[2026-05-11 12:05:55,168] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 13:53:27,737] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 13:53:27,854] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 13:53:31,184] INFO in predict: Loading ML artifacts...
+[2026-05-11 13:53:49,278] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 13:53:49,280] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 13:53:49,281] INFO in predict: Feature count: 78
+[2026-05-11 13:53:49,282] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 13:53:49,297] INFO in __init__: Routes registered successfully.
+[2026-05-11 13:53:49,301] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 14:09:12,801] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 14:09:12,827] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 14:09:14,123] INFO in predict: Loading ML artifacts...
+[2026-05-11 14:09:17,756] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 14:09:17,759] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 14:09:17,760] INFO in predict: Feature count: 78
+[2026-05-11 14:09:17,762] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 14:09:17,776] INFO in __init__: Routes registered successfully.
+[2026-05-11 14:09:17,779] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 14:13:41,033] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 14:13:41,175] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 14:13:43,377] INFO in predict: Loading ML artifacts...
+[2026-05-11 14:13:57,209] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 14:13:57,210] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 14:13:57,212] INFO in predict: Feature count: 78
+[2026-05-11 14:13:57,213] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 14:13:57,224] INFO in __init__: Routes registered successfully.
+[2026-05-11 14:13:57,227] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-11 15:25:54,442] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-11 15:25:54,471] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-11 15:25:55,821] INFO in predict: Loading ML artifacts...
+[2026-05-11 15:25:59,077] INFO in predict: ML artifacts loaded successfully.
+[2026-05-11 15:25:59,078] INFO in predict: Model type: RandomForestClassifier
+[2026-05-11 15:25:59,080] INFO in predict: Feature count: 78
+[2026-05-11 15:25:59,081] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-11 15:25:59,087] INFO in __init__: Routes registered successfully.
+[2026-05-11 15:25:59,090] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 11:10:38,683] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 11:10:38,859] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 11:10:42,258] INFO in predict: Loading ML artifacts...
+[2026-05-13 11:10:59,017] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 11:10:59,018] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 11:10:59,018] INFO in predict: Feature count: 78
+[2026-05-13 11:10:59,019] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 11:10:59,028] INFO in __init__: Routes registered successfully.
+[2026-05-13 11:10:59,031] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 11:46:44,779] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 11:46:44,908] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 11:46:47,998] INFO in predict: Loading ML artifacts...
+[2026-05-13 11:47:01,609] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 11:47:01,609] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 11:47:01,610] INFO in predict: Feature count: 78
+[2026-05-13 11:47:01,610] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 11:47:01,617] INFO in __init__: Routes registered successfully.
+[2026-05-13 11:47:01,619] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 12:50:07,241] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 12:50:07,301] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 12:50:08,767] INFO in predict: Loading ML artifacts...
+[2026-05-13 12:50:16,055] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 12:50:16,055] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 12:50:16,055] INFO in predict: Feature count: 78
+[2026-05-13 12:50:16,056] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 12:50:16,059] INFO in __init__: Routes registered successfully.
+[2026-05-13 12:50:16,060] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 13:17:25,047] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 13:17:25,146] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 13:17:29,055] INFO in predict: Loading ML artifacts...
+[2026-05-13 13:17:47,797] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 13:17:47,798] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 13:17:47,798] INFO in predict: Feature count: 78
+[2026-05-13 13:17:47,799] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 13:17:47,809] INFO in __init__: Routes registered successfully.
+[2026-05-13 13:17:47,811] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 14:12:51,489] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 14:12:51,582] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 14:12:54,164] INFO in predict: Loading ML artifacts...
+[2026-05-13 14:13:10,506] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 14:13:10,507] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 14:13:10,508] INFO in predict: Feature count: 78
+[2026-05-13 14:13:10,509] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 14:13:10,516] INFO in __init__: Routes registered successfully.
+[2026-05-13 14:13:10,523] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 16:32:41,181] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 16:32:41,281] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 16:32:44,871] INFO in predict: Loading ML artifacts...
+[2026-05-13 16:33:02,736] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 16:33:02,737] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 16:33:02,738] INFO in predict: Feature count: 78
+[2026-05-13 16:33:02,738] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 16:33:02,748] INFO in __init__: Routes registered successfully.
+[2026-05-13 16:33:02,750] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 17:19:03,065] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 17:19:03,206] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 17:19:05,920] INFO in predict: Loading ML artifacts...
+[2026-05-13 17:19:22,017] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 17:19:22,018] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 17:19:22,019] INFO in predict: Feature count: 78
+[2026-05-13 17:19:22,019] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 17:19:22,026] INFO in __init__: Routes registered successfully.
+[2026-05-13 17:19:22,028] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 20:28:50,029] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 20:28:50,066] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 20:28:51,151] INFO in predict: Loading ML artifacts...
+[2026-05-13 20:28:58,521] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 20:28:58,521] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 20:28:58,522] INFO in predict: Feature count: 78
+[2026-05-13 20:28:58,522] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 20:28:58,525] INFO in __init__: Routes registered successfully.
+[2026-05-13 20:28:58,527] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 21:28:34,286] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 21:28:34,355] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 21:33:39,171] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 21:33:39,203] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 21:33:41,943] INFO in predict: Loading ML artifacts...
+[2026-05-13 21:33:56,983] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 21:33:56,984] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 21:33:56,987] INFO in predict: Feature count: 78
+[2026-05-13 21:33:56,988] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 21:33:56,991] INFO in routes: ML model loaded successfully.
+[2026-05-13 21:33:57,003] INFO in __init__: Routes registered successfully.
+[2026-05-13 21:33:57,006] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-13 22:21:04,680] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-13 22:21:04,731] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-13 22:21:06,654] INFO in predict: Loading ML artifacts...
+[2026-05-13 22:21:11,352] INFO in predict: ML artifacts loaded successfully.
+[2026-05-13 22:21:11,353] INFO in predict: Model type: RandomForestClassifier
+[2026-05-13 22:21:11,356] INFO in predict: Feature count: 78
+[2026-05-13 22:21:11,357] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-13 22:21:11,358] INFO in routes: ML model loaded successfully.
+[2026-05-13 22:21:11,366] INFO in __init__: Routes registered successfully.
+[2026-05-13 22:21:11,370] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-15 00:01:52,222] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-15 00:01:52,281] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-15 00:01:54,752] INFO in predict: Loading ML artifacts...
+[2026-05-15 00:02:11,564] INFO in predict: ML artifacts loaded successfully.
+[2026-05-15 00:02:11,566] INFO in predict: Model type: RandomForestClassifier
+[2026-05-15 00:02:11,567] INFO in predict: Feature count: 78
+[2026-05-15 00:02:11,568] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-15 00:02:11,570] INFO in routes: ML model loaded successfully.
+[2026-05-15 00:02:11,585] INFO in __init__: Routes registered successfully.
+[2026-05-15 00:02:11,590] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-15 00:04:10,824] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-15 00:04:10,863] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-15 00:04:12,210] INFO in predict: Loading ML artifacts...
+[2026-05-15 00:04:15,619] INFO in predict: ML artifacts loaded successfully.
+[2026-05-15 00:04:15,620] INFO in predict: Model type: RandomForestClassifier
+[2026-05-15 00:04:15,621] INFO in predict: Feature count: 78
+[2026-05-15 00:04:15,622] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-15 00:04:15,624] INFO in routes: ML model loaded successfully.
+[2026-05-15 00:04:15,633] INFO in __init__: Routes registered successfully.
+[2026-05-15 00:04:15,635] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-15 00:21:34,749] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-15 00:21:34,780] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-15 00:21:36,204] INFO in predict: Loading ML artifacts...
+[2026-05-15 00:21:39,504] INFO in predict: ML artifacts loaded successfully.
+[2026-05-15 00:21:39,506] INFO in predict: Model type: RandomForestClassifier
+[2026-05-15 00:21:39,507] INFO in predict: Feature count: 78
+[2026-05-15 00:21:39,507] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-15 00:21:39,509] INFO in routes: ML model loaded successfully.
+[2026-05-15 00:21:39,521] INFO in __init__: Routes registered successfully.
+[2026-05-15 00:21:39,525] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-15 00:47:03,857] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-15 00:47:03,905] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-15 00:47:05,479] INFO in predict: Loading ML artifacts...
+[2026-05-15 00:47:09,349] INFO in predict: ML artifacts loaded successfully.
+[2026-05-15 00:47:09,351] INFO in predict: Model type: RandomForestClassifier
+[2026-05-15 00:47:09,352] INFO in predict: Feature count: 78
+[2026-05-15 00:47:09,353] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-15 00:47:09,355] INFO in routes: ML model loaded successfully.
+[2026-05-15 00:47:09,365] INFO in __init__: Routes registered successfully.
+[2026-05-15 00:47:09,369] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-16 10:26:14,582] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 10:26:14,739] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 10:26:17,666] INFO in predict: Loading ML artifacts...
+[2026-05-16 10:26:37,107] INFO in predict: ML artifacts loaded successfully.
+[2026-05-16 10:26:37,108] INFO in predict: Model type: RandomForestClassifier
+[2026-05-16 10:26:37,110] INFO in predict: Feature count: 78
+[2026-05-16 10:26:37,111] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-16 10:26:37,114] INFO in routes: ML model loaded successfully.
+[2026-05-16 10:26:37,123] INFO in __init__: Routes registered successfully.
+[2026-05-16 10:26:37,126] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-16 10:34:07,960] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:08,043] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:14,618] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:14,623] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:16,719] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:16,723] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:17,817] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:17,822] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:21,907] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:21,912] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:25,889] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:25,894] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:26,841] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:26,848] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:27,014] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:27,020] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:27,222] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:27,228] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:35:13,744] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:35:13,749] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:35:15,552] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:35:15,556] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:38:59,101] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 10:38:59,235] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 10:45:01,569] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 10:45:01,610] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 10:46:35,075] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 10:46:35,101] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 10:46:36,850] INFO in routes: Default admin created -> username: admin password: admin123
+[2026-05-16 10:46:36,853] INFO in predict: Loading ML artifacts...
+[2026-05-16 10:46:51,817] INFO in predict: ML artifacts loaded successfully.
+[2026-05-16 10:46:51,818] INFO in predict: Model type: RandomForestClassifier
+[2026-05-16 10:46:51,820] INFO in predict: Feature count: 78
+[2026-05-16 10:46:51,821] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-16 10:46:51,823] INFO in routes: ML model loaded successfully.
+[2026-05-16 10:46:51,830] INFO in __init__: Routes registered successfully.
+[2026-05-16 10:46:51,832] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-16 22:07:07,558] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 22:07:07,617] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 22:07:10,112] INFO in predict: Loading ML artifacts...
+[2026-05-16 22:07:26,793] INFO in predict: ML artifacts loaded successfully.
+[2026-05-16 22:07:26,794] INFO in predict: Model type: RandomForestClassifier
+[2026-05-16 22:07:26,795] INFO in predict: Feature count: 78
+[2026-05-16 22:07:26,795] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-16 22:07:26,797] INFO in routes: ML model loaded successfully.
+[2026-05-16 22:07:26,808] INFO in __init__: Routes registered successfully.
+[2026-05-16 22:07:26,811] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-16 22:15:07,830] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 22:15:07,866] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 22:15:09,469] INFO in predict: Loading ML artifacts...
+[2026-05-16 22:15:16,833] INFO in predict: ML artifacts loaded successfully.
+[2026-05-16 22:15:16,834] INFO in predict: Model type: RandomForestClassifier
+[2026-05-16 22:15:16,834] INFO in predict: Feature count: 78
+[2026-05-16 22:15:16,834] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-16 22:15:16,834] INFO in routes: ML model loaded successfully.
+[2026-05-16 22:15:16,837] INFO in __init__: Routes registered successfully.
+[2026-05-16 22:15:16,838] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-16 22:23:02,698] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-16 22:23:02,766] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-16 22:23:04,067] INFO in predict: Loading ML artifacts...
+[2026-05-16 22:23:10,730] INFO in predict: ML artifacts loaded successfully.
+[2026-05-16 22:23:10,731] INFO in predict: Model type: RandomForestClassifier
+[2026-05-16 22:23:10,731] INFO in predict: Feature count: 78
+[2026-05-16 22:23:10,732] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-16 22:23:10,732] INFO in routes: ML model loaded successfully.
+[2026-05-16 22:23:10,735] INFO in __init__: Routes registered successfully.
+[2026-05-16 22:23:10,736] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 00:43:04,081] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 00:43:04,144] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 00:47:52,108] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 00:47:52,135] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 00:47:53,673] INFO in predict: Loading ML artifacts...
+[2026-05-17 00:48:07,674] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 00:48:07,675] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 00:48:07,676] INFO in predict: Feature count: 78
+[2026-05-17 00:48:07,677] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 00:48:07,678] INFO in routes: ML model loaded successfully.
+[2026-05-17 00:48:07,689] INFO in __init__: Routes registered successfully.
+[2026-05-17 00:48:07,692] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:02:35,818] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:02:35,848] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:02:37,416] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:02:40,757] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:02:40,759] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:02:40,760] INFO in predict: Feature count: 78
+[2026-05-17 01:02:40,761] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:02:40,761] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:02:40,770] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:02:40,773] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:09:19,202] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:09:19,257] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:09:20,847] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:09:24,421] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:09:24,422] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:09:24,423] INFO in predict: Feature count: 78
+[2026-05-17 01:09:24,424] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:09:24,425] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:09:24,435] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:09:24,438] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:15:20,053] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:15:20,110] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:15:21,574] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:15:25,284] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:15:25,286] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:15:25,288] INFO in predict: Feature count: 78
+[2026-05-17 01:15:25,289] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:15:25,291] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:15:25,303] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:15:25,306] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:22:26,732] ERROR in routes: Capture start error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2026-05-17 01:32:10,006] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:32:10,052] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:33:48,908] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:33:48,939] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:33:50,337] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:33:53,675] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:33:53,677] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:33:53,678] INFO in predict: Feature count: 78
+[2026-05-17 01:33:53,679] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:33:53,680] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:33:53,693] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:33:53,695] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:54:35,263] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:54:35,288] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:54:36,772] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:54:40,086] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:54:40,088] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:54:40,089] INFO in predict: Feature count: 78
+[2026-05-17 01:54:40,092] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:54:40,094] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:54:40,104] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:54:40,106] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 01:54:58,219] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 01:54:58,257] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 01:54:59,784] INFO in predict: Loading ML artifacts...
+[2026-05-17 01:55:03,059] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 01:55:03,060] INFO in predict: Model type: RandomForestClassifier
+[2026-05-17 01:55:03,061] INFO in predict: Feature count: 78
+[2026-05-17 01:55:03,064] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 01:55:03,065] INFO in routes: ML model loaded successfully.
+[2026-05-17 01:55:03,089] INFO in __init__: Routes registered successfully.
+[2026-05-17 01:55:03,093] INFO in __init__: Net Sentinel AI backend started successfully.
+[2026-05-17 02:12:31,389] INFO in __init__: CORS enabled for /api/* routes.
+[2026-05-17 02:12:31,419] INFO in __init__: Connected to MongoDB -> database: 'net_sentinel_ai'
+[2026-05-17 02:12:31,991] INFO in predict: Loading ML artifacts...
+[2026-05-17 02:12:35,567] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 02:12:35,569] INFO in predict: Model Type: RandomForestClassifier
+[2026-05-17 02:12:35,570] INFO in predict: Feature Count: 78
+[2026-05-17 02:12:35,571] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 02:12:36,452] INFO in predict: Loading ML artifacts...
+[2026-05-17 02:12:36,566] INFO in predict: ML artifacts loaded successfully.
+[2026-05-17 02:12:36,567] INFO in predict: Model Type: RandomForestClassifier
+[2026-05-17 02:12:36,569] INFO in predict: Feature Count: 78
+[2026-05-17 02:12:36,571] INFO in predict: Classes: ['BENIGN', 'PortScan']
+[2026-05-17 02:12:36,572] INFO in routes: ML model loaded successfully.
+[2026-05-17 02:12:36,581] INFO in __init__: Routes registered successfully.
+[2026-05-17 02:12:36,583] INFO in __init__: Net Sentinel AI backend started successfully.

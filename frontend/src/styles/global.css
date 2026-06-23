@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap");
+
+@import "tailwindcss";
+
+/* =========================================================
+   ROOT VARIABLES
+========================================================= */
+
+:root {
+  --background: #020617;
+  --foreground: #f8fafc;
+
+  --card: #0f172a;
+  --card-border: #1e293b;
+
+  --primary: #06b6d4;
+  --primary-hover: #0891b2;
+
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --success: #10b981;
+
+  --muted: #94a3b8;
+}
+
+/* =========================================================
+   BASE
+========================================================= */
+
+@layer base {
+
+  * {
+    @apply border-slate-800;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+
+    background:
+      radial-gradient(circle at top left,
+        rgba(6, 182, 212, 0.08),
+        transparent 30%),
+
+      radial-gradient(circle at bottom right,
+        rgba(59, 130, 246, 0.08),
+        transparent 30%),
+
+      var(--background);
+
+    color: var(--foreground);
+
+    min-height: 100vh;
+
+    overflow-x: hidden;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  button {
+    @apply transition-all duration-200;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply outline-none;
+  }
+
+  ::selection {
+    background: rgba(6, 182, 212, 0.3);
+    color: white;
+  }
+}
+
+/* =========================================================
+   MONO FONT
+========================================================= */
+
+@layer components {
+
+  .font-mono {
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  /* CARD */
+
+  .dashboard-card {
+    @apply bg-slate-900 border border-slate-800 rounded-2xl shadow-xl;
+  }
+
+  /* GLOW EFFECT */
+
+  .cyber-glow {
+    box-shadow:
+      0 0 10px rgba(6, 182, 212, 0.15),
+      0 0 25px rgba(6, 182, 212, 0.05);
+  }
+
+  /* STATUS DOT */
+
+  .status-live {
+    @apply relative flex h-3 w-3;
+  }
+
+  .status-live::before {
+    content: "";
+
+    @apply absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75 animate-ping;
+  }
+
+  .status-live::after {
+    content: "";
+
+    @apply relative inline-flex rounded-full h-3 w-3 bg-emerald-500;
+  }
+}
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+@layer utilities {
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #0B1120;
+    border-left: 1px solid #1E293B;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #E2E8F0;
+    border-radius: 9999px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #F8FAFC;
+  }
+
+
+
+  /* GLASSMORPHISM */
+
+  .glass {
+    background: rgba(15, 23, 42, 0.7);
+
+    backdrop-filter: blur(14px);
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  /* ANIMATION */
+
+  .fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

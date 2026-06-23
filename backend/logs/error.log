@@ -1,0 +1,315 @@
+[2026-05-10 01:45:53,242] ERROR in predict: Model not found at 'models/saved/random_forest.pkl'. Run models/training/train.py first.
+[2026-05-10 02:41:35,327] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:41:35,434] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:27,778] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:27,885] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:32,770] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:38,294] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:43,284] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:48,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:53,286] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:42:58,286] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:03,287] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:08,294] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:13,287] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:18,281] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:23,295] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:28,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:43:51,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:44:51,292] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:45:51,295] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:46:51,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:43,589] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:43,695] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:49,280] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:54,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:47:59,281] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:04,291] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:09,277] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:14,289] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:19,285] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:48:51,282] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:49:51,290] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:50:51,284] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:08,813] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:08,920] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:51,288] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:53,932] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:54,086] ERROR in routes: System health error: 'is_loaded'
+[2026-05-10 02:51:54,192] ERROR in routes: System health error: 'is_loaded'
+[2026-05-16 10:34:07,960] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:08,043] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:14,618] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:14,623] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:16,719] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:16,723] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:17,817] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:17,822] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:21,907] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:21,912] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:25,889] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:25,894] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:26,841] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:26,848] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:27,014] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:27,020] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:34:27,222] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:34:27,228] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:35:13,744] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:35:13,749] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-16 10:35:15,552] ERROR in app: Exception on /api/login [POST]
+Traceback (most recent call last):
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 146, in login
+    "exp": _utcnow() + timedelta(
+           ^^^^^^^^^
+  File "D:\Projects\Net_Sentinal_ai\backend\app\routes.py", line 28, in _utcnow
+    return datetime.now(timezone.utc)
+                        ^^^^^^^^
+NameError: name 'timezone' is not defined
+[2026-05-16 10:35:15,556] ERROR in __init__: Internal Server Error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+[2026-05-17 01:22:26,732] ERROR in routes: Capture start error: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.

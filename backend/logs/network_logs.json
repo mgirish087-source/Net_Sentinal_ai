@@ -1,1 +1,24 @@
-[]
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/logs", methods=["GET"])
+def get_logs():
+    data = [
+        {
+            "timestamp": "12:01:23",
+            "src_ip": "192.168.1.1",
+            "dst_ip": "10.0.0.5",
+            "protocol": "TCP",
+            "attack": "Normal"
+        },
+        {
+            "timestamp": "12:02:10",
+            "src_ip": "192.168.1.5",
+            "dst_ip": "10.0.0.8",
+            "protocol": "UDP",
+            "attack": "DoS"
+        }
+    ]
+
+    return jsonify(data)

@@ -1,6 +1,13 @@
-pandas
-numpy
+Flask
+flask-cors
+PyJWT
+Werkzeug
+pymongo
 scikit-learn
 joblib
-flask
+numpy
+pandas
 scapy
+python-dotenv
+gunicorn
+psutil

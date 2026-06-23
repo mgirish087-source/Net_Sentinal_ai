@@ -1,60 +1,154 @@
-# Net_Sentinal_ai
-# [DAY 1]
-### AI-Based Network Intrusion Detection System
+# 🛡️ Net_Sentinal_AI
 
-## 📌 Project Overview
+### AI-Powered Network Intrusion Detection System (NIDS)
 
-**Net_Sentinal_ai** is an AI-powered Network Intrusion Detection System (IDS) designed to monitor network traffic and detect potential cyber attacks in real time. The system analyzes network packets using machine learning models to identify malicious activities such as DoS attacks, brute-force attempts, and suspicious network behavior.
-
-This project aims to demonstrate how Artificial Intelligence can enhance cybersecurity by automatically detecting threats in large volumes of network data.
-
----
-
-## 🎯 Objectives
-
-* Detect malicious network traffic using machine learning.
-* Classify network activities as **normal** or **attack**.
-* Provide a dashboard for monitoring network activity.
-* Assist security analysts in identifying potential threats quickly.
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
+![Flask](https://img.shields.io/badge/Flask-Web%20Application-black)
+![License](https://img.shields.io/badge/License-Educational-orange)
 
 ---
 
-## 🧠 Dataset
+## 📖 Overview
 
-The model is trained using the **CICIDS2017 dataset**, a widely used dataset for network intrusion detection research.
+**Net_Sentinal_AI** is an Artificial Intelligence-based Network Intrusion Detection System (NIDS) developed to identify and classify malicious network activities in real time.
 
-Dataset source:
-CICIDS2017 (Canadian Institute for Cybersecurity)
+The system leverages Machine Learning algorithms trained on the **CICIDS2017 dataset** to analyze network traffic patterns and detect cyber threats such as:
 
-Due to large file sizes, datasets are not included in this repository.
+* Denial of Service (DoS) Attacks
+* Brute Force Attacks
+* Port Scanning
+* Botnet Activities
+* Suspicious Network Anomalies
+
+The primary goal of this project is to demonstrate how Artificial Intelligence can enhance modern cybersecurity defenses by automating threat detection and reducing manual analysis efforts.
 
 ---
 
-## 🛠 Technologies Used
+## 🎯 Project Objectives
+
+* Detect malicious network traffic using Machine Learning techniques.
+* Classify traffic as **Benign** or **Malicious**.
+* Monitor network behavior through an interactive dashboard.
+* Improve threat visibility for security analysts.
+* Demonstrate practical implementation of AI in Cybersecurity.
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Network Traffic
+       │
+       ▼
+Data Collection
+       │
+       ▼
+Data Preprocessing
+       │
+       ▼
+Feature Engineering
+       │
+       ▼
+Machine Learning Model
+(Random Forest / Decision Tree)
+       │
+       ▼
+Threat Detection Engine
+       │
+       ▼
+Dashboard & Alerts
+```
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+### Data Preprocessing
+
+* Missing Value Handling
+* Data Cleaning
+* Feature Selection
+* Label Encoding
+* Normalization
+
+### Model Training
+
+The following Machine Learning algorithms were evaluated:
+
+* Random Forest Classifier
+
+### Performance Metrics
+
+* Accuracy
+* Precision
+* Confusion Matrix
+
+---
+
+## 📊 Dataset
+
+### CICIDS2017 Dataset
+
+The model is trained using the **CICIDS2017 (Canadian Institute for Cybersecurity)** dataset, one of the most widely used benchmark datasets for intrusion detection research.
+
+#### Dataset Includes
+
+* Normal Network Traffic
+* DoS Attacks
+* DDoS Attacks
+* Brute Force Attacks
+* Botnet Traffic
+* Port Scanning Activities
+* Web-Based Attacks
+
+> Note: Dataset files are not included in this repository due to their large size.
+
+---
+
+## 🚀 Key Features
+
+✅ Real-Time Network Traffic Analysis
+
+✅ Machine Learning-Based Attack Detection
+
+✅ Network Threat Classification
+
+✅ Interactive Monitoring Dashboard
+
+✅ Automated Data Preprocessing Pipeline
+
+✅ Security Event Visualization
+
+✅ Extensible Detection Framework
+
+---
+
+## 🛠️ Technology Stack
 
 ### Backend
 
 * Python
 * Flask / FastAPI
-* Scikit-learn
 * Pandas
 * NumPy
+* Scikit-Learn
 
 ### Machine Learning
 
 * Random Forest
 * Decision Tree
-* Data Preprocessing
 * Feature Engineering
+* Data Preprocessing
 
 ### Frontend
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
-* Dashboard visualization
+* Tailwind CSS
 
-### Tools
+### Development Tools
 
 * Git
 * GitHub
@@ -64,8 +158,8 @@ Due to large file sizes, datasets are not included in this repository.
 
 ## 📂 Project Structure
 
-```
-Net_Sentinal_ai
+```text
+Net_Sentinal_AI
 │
 ├── backend
 │   ├── app.py
@@ -74,115 +168,172 @@ Net_Sentinal_ai
 │   ├── requirements.txt
 │
 ├── frontend
-│   ├── dashboard
+│   ├── templates
 │   ├── static
-│   └── templates
+│   └── dashboard
 │
-├── dataset/        (ignored in GitHub)
-├── models/         (ignored in GitHub)
+├── dataset/
+│   └── (excluded from repository)
+│
+├── models/
+│   └── (trained models)
+│
+├── screenshots/
 │
 ├── README.md
 └── .gitignore
 ```
 
 ---
+## 📋 Prerequisites
 
-## ⚙️ Installation
+Before running this project, ensure you have:
 
-### 1. Clone the Repository
+- Python 3.10 or later
+- Git
+- pip package manager
+- Visual Studio Code (Recommended)
 
+## ⚙️ Installation Guide
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/mgirish087-source/Net_Sentinal_AI.git
 ```
-git clone https://github.com/yourusername/Net_Sentinal_ai.git
-```
 
-### 2. Navigate to Project Folder
+### 2. Navigate to Project Directory
 
-```
-cd Net_Sentinal_ai
+```bash
+cd Net_Sentinal_AI
 ```
 
 ### 3. Create Virtual Environment
 
-```
+```bash
 python -m venv venv
 ```
 
-Activate environment:
+### 4. Activate Environment
 
-Windows
+#### Windows
 
-```
+```bash
 venv\Scripts\activate
 ```
 
-Linux / Mac
+#### Linux / macOS
 
-```
+```bash
 source venv/bin/activate
 ```
 
----
+### 5. Install Dependencies
 
-### 4. Install Dependencies
-
-```
+```bash
 pip install -r backend/requirements.txt
 ```
 
 ---
 
-## ▶️ Running the Project
+## ▶️ Running the Application
 
 Start the backend server:
 
-```
+```bash
 python backend/app.py
 ```
 
-Open browser:
+Open your browser:
 
-```
+```text
 http://localhost:5000
 ```
 
 ---
 
-## 📊 Features
+## 🔍 Threats Detected
 
-* Network traffic analysis
-* Machine learning-based attack detection
-* Real-time monitoring dashboard
-* Data preprocessing pipeline
-* Attack classification
-
----
-
-## 🔐 Example Attacks Detected
-
-* DoS (Denial of Service)
-* Port Scanning
-* Brute Force Attacks
-* Botnet Activity
-* Unknown network anomalies
+| Attack Type       | Description                   |
+| ----------------- | ----------------------------- |
+| DoS               | Resource exhaustion attacks   |
+| DDoS              | Distributed Denial of Service |
+| Brute Force       | Password guessing attacks     |
+| Port Scan         | Network reconnaissance        |
+| Botnet Activity   | Malicious automated traffic   |
+| Anomalous Traffic | Unknown suspicious behavior   |
 
 ---
 
-## 🚀 Future Improvements
+## 📈 Future Enhancements
 
-* Real-time packet capture using Scapy
-* Deep learning-based detection models
-* Advanced visualization dashboard
-* Alert notification system
-* Integration with SIEM tools
+* Real-Time Packet Capture using Scapy
+* Deep Learning Models (LSTM, CNN)
+* SIEM Integration
+* Email & SMS Alert System
+* Threat Intelligence Feeds
+* Advanced Dashboard Analytics
+* Cloud Deployment (AWS/Azure)
+
+---
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard2.png)
+
+### Live Packet Monitoring
+
+![Live Packet](sscreenshots/livepacket.png)
+
+### Live Packet Analysis
+
+![Live Packet Analysis](screenshots/livepacket2.png)
+
+### System Health Monitoring
+
+![System Health](screenshots/systemhealth.png)
+
+### Threat Alerts
+
+![Threat Alerts](screenshots/threatAlerts.png)
+
+## 🔐 Cybersecurity Use Cases
+
+* Security Operations Center (SOC)
+* Enterprise Network Monitoring
+* Threat Detection Research
+* Academic Cybersecurity Projects
+* Security Awareness Demonstrations
 
 ---
 
 ## 👨‍💻 Author
 
-Girish M & Stonshia 
+**Girish M**
+
+Master of Computer Applications (MCA)
+
+Cybersecurity & Cloud Computing Enthusiast
+
+GitHub: https://github.com/mgirish087-source
+
+LinkedIn: https://www.linkedin.com/in/girish-m-b8385b27a/
 
 ---
 
 ## 📜 License
 
-This project is for educational and research purposes.
+This project is developed for **Educational, Research, and Learning Purposes**.
+
+Feel free to use and modify the code for academic and non-commercial projects.
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
+
+
+
